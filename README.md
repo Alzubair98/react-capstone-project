@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-## Available Scripts
+# Space Traveler's Hub :rocket: :astronaut:
 
-In the project directory, you can run:
+> A Website App built with React and Redux for a company that provides commercial and scientific space travel services. The application fetches the data from the SpaceX API and allows users to book rockets and join selected space missions.
 
-### `npm start`
+## Built With :hammer_and_wrench:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **HTML/CSS & JS best practices:** Correct use of tags, elements, properties and syntax.
+- **GitHub flow:** Correct use of Branches for deployment and features development.
+- **Linters Check:** Local and Pull Request check for errors, bugs and stylistic errors in code.
+- **Webpack:** Bundler form JavaScript files for usage in a browser.
+- **Jest:** JS testing framework used for the app testing.
+- **REACT JS:** JS library used for the basic structure (components).
+- **Redux/Redux Toolkit:** JS library used to handle the app state changes/updates.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Preview :eye_speech_bubble:
 
-### `npm test`
+## Set Up Guide :page_facing_up:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Use the following link for "$ git clone" the [repo](https://github.com/Alzubair98/REACT-GROUP-PROJECT.git) and cd REACT-GROUP-PROJECT
 
-### `npm run build`
+2. "npm install" to install all the dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. "npm start" to run the live version locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. "code ." To open the project on your local editor
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Please click on the "access link" so you can check the live demo
 
-### `npm run eject`
+6. You can use the Space Hub to book rockets :rocket: and join selected space missions :astronaut:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Authors :writing_hand: :busts_in_silhouette:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+:man_technologist: **Alzubair Alqaraghuli** :writing_hand:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- GitHub: [@Alzubair98](https://github.com/Alzubair98)
+- Twitter: [@FitZubair](https://twitter.com/FitZubair)
+- LinkedIn: [Alzubair Alqaraghuli](https://www.linkedin.com/in/alzubair-alqaraghuli-272918233/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝 Contributing
 
-## Learn More
+Contributions, issues, and feature requests are welcome!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to check the [issues page](../../issues/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments :star2:
 
-### Code Splitting
+- App logo attributed to [Planet icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/planet)
+- [SpaceX API](https://api.spacexdata.com/v3/) for app data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
