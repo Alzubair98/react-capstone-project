@@ -13,11 +13,11 @@ const Secondcont = (props) => {
       {animals.map((animal) => (
         <div key={animal.id} className="phone-card">
           <img className="phone-img" src={animal.img} alt="phone-img" />
-          <h2>
+          <h5>
             {animal.name}
-          </h2>
-          <button onClick={handelid} type="button">
-            <NavLink id={animal.id} to="Details">Details</NavLink>
+          </h5>
+          <button className="details-button" onClick={handelid} type="button">
+            <NavLink className="details-link" id={animal.id} to="Details">Details</NavLink>
           </button>
         </div>
       ))}

@@ -11,35 +11,35 @@ const Details = (props) => {
   return (
     <>
       {animal.map((animal) => (
-        <div key={animal.id}>
+        <div key={animal.id} className="detail-continer">
           <div className="img-continer">
-            <img className="phone-img" alt="animal-img" src={animal.img} />
+            <img className="animal-img" alt="animal-img" src={animal.img} />
           </div>
-          <div className="detial-continer">
-            <h2>
+          <div className="detials-continer">
+            <li>
               Latin Name :
               {animal.latinName}
-            </h2>
-            <h2>
+            </li>
+            <li>
               Animal Type :
               {animal.type}
-            </h2>
-            <h2>
+            </li>
+            <li>
               Active Time :
               {animal.time}
-            </h2>
-            <h2>
+            </li>
+            <li>
               Life Span :
               {animal.life}
-            </h2>
-            <h2>
+            </li>
+            <li>
               Animal Home :
               {animal.home}
-            </h2>
-            <h2>
+            </li>
+            <li>
               Animal Habitat :
               {animal.place}
-            </h2>
+            </li>
           </div>
         </div>
       ))}
