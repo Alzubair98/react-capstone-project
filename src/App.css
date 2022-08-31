@@ -110,7 +110,7 @@ body {
   width: 100px;
   cursor: pointer;
   background-color: #799be6;
-  color: white;
+  border-color: #277bc0;
   transition: 0.5s ease;
   border-radius: 10px;
   margin: 0 0 0 1rem;

@@ -9,6 +9,10 @@
 
 > A Website App built with React and Redux for a company that provides commercial and scientific animals informations. The application fetches the data from the zoo animal API and allows users to see specific animal information.
 
+# video
+
+- you can see the [Video](https://www.loom.com/share/fa0765da64694341ab2519bdccec461a) here.
+
 # Design
 
 - Design idea by Nelson Sakwa on Behance.
