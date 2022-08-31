@@ -7,6 +7,7 @@ const Fullphone = (props) => {
   const { handelid } = props;
   return (
     <>
+      <div className="glitch" data-text="ANIMALS">ANIMALS</div>
       <Secondcont handelid={handelid} />
     </>
   );
