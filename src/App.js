@@ -5,6 +5,7 @@ import { useDispatch } from 'react-redux';
 import Navbar from './component/navbar';
 import { loadPhones } from './Redux/phones/phones';
 import Fullphone from './component/fullPhone';
+import Details from './component/details';
 
 function App() {
   const dispatch = useDispatch();
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Fullphone />} />
+        <Route path="/Details" element={<Details />} />
       </Routes>
     </>
   );
