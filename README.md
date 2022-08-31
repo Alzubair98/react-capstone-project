@@ -1,14 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-# Space Traveler's Hub :rocket: :astronaut:
+# Animal Album
 
-> A Website App built with React and Redux for a company that provides commercial and scientific space travel services. The application fetches the data from the SpaceX API and allows users to book rockets and join selected space missions.
+> A Website App built with React and Redux for a company that provides commercial and scientific animals informations. The application fetches the data from the zoo animal API and allows users to see specific animal information.
+
+# Design
+
+- Design idea by Nelson Sakwa on Behance.
+- [Zoo Animal API](https://zoo-animal-api.herokuapp.com/animals/rand/10)
 
 ## Built With :hammer_and_wrench:
 
@@ -24,7 +28,7 @@
 
 ## Set Up Guide :page_facing_up:
 
-1. Use the following link for "$ git clone" the [repo](https://github.com/Alzubair98/REACT-GROUP-PROJECT.git) and cd REACT-GROUP-PROJECT
+1. Use the following link for "$ git clone" the [repo](https://github.com/Alzubair98/react-capstone-project.git) and cd REACT-GROUP-PROJECT
 
 2. "npm install" to install all the dependencies
 
