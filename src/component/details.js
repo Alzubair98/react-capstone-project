@@ -1,6 +1,6 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import { useSelector } from 'react-redux/es/exports';
+import { useSelector } from 'react-redux';
 
 const Details = (props) => {
   const { buttonId } = props;
