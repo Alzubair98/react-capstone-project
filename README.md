@@ -15,8 +15,11 @@
 
 # Design
 
-- Design idea by Nelson Sakwa on Behance.
 - [Zoo Animal API](https://zoo-animal-api.herokuapp.com/animals/rand/10)
+
+# Live Demo
+
+[LINK DEMO](https://630fedfb6646dd0a87ba6c3b--gleeful-snickerdoodle-983473.netlify.app/)
 
 ## Built With :hammer_and_wrench:
 
@@ -42,7 +45,7 @@
 
 5. Please click on the "access link" so you can check the live demo
 
-6. You can use the Space Hub to book rockets :rocket: and join selected space missions :astronaut:
+6. You can use the Animal to get information about animals :astronaut:
 
 ## Authors :writing_hand: :busts_in_silhouette:
 
@@ -60,8 +63,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## Acknowledgments :star2:
 
-- App logo attributed to [Planet icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/planet)
-- [SpaceX API](https://api.spacexdata.com/v3/) for app data.
+- I give credit to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>)
 
 ## Show your support
 
