@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import Navbar from './component/navbar';
@@ -13,12 +13,20 @@ function App() {
   useEffect(() => {
     dispatch(loadPhones());
   }, []);
+
+  const [id, setId] = useState(1);
+
+  const handelid = (e) => {
+    const button = e.target;
+    setId(Number(button.id));
+  };
+
   return (
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Fullphone />} />
-        <Route path="/Details" element={<Details />} />
+        <Route path="/" element={<Fullphone handelid={handelid} />} />
+        <Route path="/Details" element={<Details buttonId={id} />} />
       </Routes>
     </>
   );

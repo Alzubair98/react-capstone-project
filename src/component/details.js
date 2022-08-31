@@ -1,25 +1,54 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import propTypes from 'prop-types';
+import { useSelector } from 'react-redux/es/exports';
 
-const Details = () => {
-  const animal = useSelector((state) => state.storeSlice);
-  console.log(animal);
+const Details = (props) => {
+  const { buttonId } = props;
+
+  const animals = useSelector((state) => state.storeSlice);
+  const animal = animals.filter((item) => item.id === buttonId);
 
   return (
-    <div>
-      <div className="img-continer">
-        <image alt="animal-img" src="" />
-      </div>
-      <div className="detial-continer">
-        <h2>Latin Name : animal</h2>
-        <h2>Animal Type : bird</h2>
-        <h2>Active Time : morning</h2>
-        <h2>Life Span : 50 day</h2>
-        <h2>Animal Home : home</h2>
-        <h2>Animal Habitat : Home</h2>
-      </div>
-    </div>
+    <>
+      {animal.map((animal) => (
+        <div key={animal.id}>
+          <div className="img-continer">
+            <img className="phone-img" alt="animal-img" src={animal.img} />
+          </div>
+          <div className="detial-continer">
+            <h2>
+              Latin Name :
+              {animal.latinName}
+            </h2>
+            <h2>
+              Animal Type :
+              {animal.type}
+            </h2>
+            <h2>
+              Active Time :
+              {animal.time}
+            </h2>
+            <h2>
+              Life Span :
+              {animal.life}
+            </h2>
+            <h2>
+              Animal Home :
+              {animal.home}
+            </h2>
+            <h2>
+              Animal Habitat :
+              {animal.place}
+            </h2>
+          </div>
+        </div>
+      ))}
+    </>
   );
 };
 
 export default Details;
+
+Details.propTypes = {
+  buttonId: propTypes.number.isRequired,
+};
