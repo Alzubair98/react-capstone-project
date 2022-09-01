@@ -1,28 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useEffect, useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import Navbar from './component/navbar';
+import { loadPhones } from './Redux/phones/phones';
+import Fullphone from './component/fullPhone';
+import Details from './component/details';
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(loadPhones());
+  }, []);
+
+  const [id, setId] = useState(1);
+
+  const handelid = (e) => {
+    const button = e.target;
+    setId(Number(button.id));
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          {' '}
-          <code>src/App.js</code>
-          {' '}
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Fullphone handelid={handelid} />} />
+        <Route path="/Details" element={<Details buttonId={id} />} />
+      </Routes>
+    </>
   );
 }
 
